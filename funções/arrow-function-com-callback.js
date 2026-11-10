@@ -14,7 +14,7 @@ const divisao = (numero1, numero2) => numero1 / numero2;
 const executarOperacao = (numero1, numero2, callback) => callback(numero1, numero2);
 
 // Chamando a função executarOperacao com a função soma como callback
-const resultadoSoma = executarOperacao(5, 3, soma);
+const resultadoSoma = executarOperacao(67, 67, soma);
 console.log("Resultado da soma:", resultadoSoma);
 
 // Chamando a função executarOperacao com a função subtracao como callback
@@ -22,9 +22,9 @@ const resultadoSubtracao = executarOperacao(10, 4, subtracao);
 console.log("Resultado da subtração:", resultadoSubtracao);
 
 // Chamando a função executarOperacao com a função multiplicacao como callback
-const resultadoMultiplicacao = executarOperacao(12, 5, multiplicacao);
+const resultadoMultiplicacao = executarOperacao(67, 67, multiplicacao);
 console.log("Resultado da multiplicação:", resultadoMultiplicacao);
 
 // Chamando a função executarOperacao com a função divisao como callback
-const resultadoDivisao = executarOperacao(15, 3, divisao);
+const resultadoDivisao = executarOperacao(67, 67, divisao);
 console.log("Resultado da divisão:", resultadoDivisao);
